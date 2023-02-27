@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    margin-top: 2em;
+    color: rgba(11, 102, 199, 0.872) ;
+}
+.container button{
+    padding: 10px;
+    /* background: rgb(5, 107, 241); */
+    border: 1px solid   rgba(11, 102, 199, 0.872);
+    font-size: 15px;
+    color:#fff;
+    font-size: 20px;
+    top: 20px;
+    position: relative;
+  
+
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: centers;
+    align-items: center;
+}
+h1{
+    color: rgba(11, 102, 199, 0.872) ;
+}
+.hero .img{
+    background: url(./mega.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:280px;
+    height: 280px; 
+    border-radius: 1000px;
+}
+.bio{
+    line-height: 10px;
+}
+.hero p{
+    /* line-height: 4px; */
+    text-align: justify;
+    width: 40%;
+    left: 360px;
+    position: relative;
+    
+}
+i{
+    font-size: 26px;
+    padding: 10px;
+    /* margin-bottom: 4em; */
+}
+button{
+    background: rgba(11, 102, 199, 0.872);
+
+    color: #fff;
+    font-size: 20px;
+    border:  1px solid rgba(11, 102, 199, 0.872);
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    bottom: 240px;
+    position: relative;
+}
+@media only screen and (max-width:940px) {
+     
+    .hero p{
+        /* line-height: 24px;
+        text-align:center;
+        width: 50%;
+        font-size: 14px; */
+        left: 240px;
+        position: relative;
+        
+    }
+
+@media only screen and (max-width:813px) {
+
+}
+@media only screen and (max-width:600px) {
+    .hero .img{
+        background: url(./mega.jpeg);
+       
+        width:260px;
+        height: 260px; 
+        border-radius: 50%;
+    }
+ 
+    .hero p{
+        line-height: 24px;
+        text-align:center;
+        width: 50%;
+        font-size: 14px;
+        left: 150px;
+        position: relative;
+        
+    }
+
+    
+}
